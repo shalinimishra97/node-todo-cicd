@@ -14,7 +14,7 @@ after(() => {
 // We can add nested blocks for different tests
 describe( "Test1", () => {
 	beforeEach(() => {
-	console.log( "executes before every test" );
+	console.log( "Executes before every test" );
 	});
 	
 	it("Is returning 5 when adding 2 + 3", () => {
